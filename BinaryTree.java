@@ -253,9 +253,10 @@ public class BinaryTree {
         // ADD YOUR CODE HERE -- USE DEPTH FIRST SEARCH OF
         // BINARY TREE (WHICH IS BASED ON RECURSION)
 
-        int min = Integer.MAX_VALUE; // Initialize min to the largest possible integer value, in case the node is
-                                     // null
+        int min = Integer.MAX_VALUE; // Initialize min to largest possible integer value, in case the node is null
+
         if (node != null) { // Ensure the current node is not null before proceeding
+            
             min = node.data; // Assume the current node holds the minimum value initially
 
             // Recursively find the minimum value in the left and right subtrees
